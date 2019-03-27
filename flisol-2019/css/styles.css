@@ -45,7 +45,8 @@ h2 {
 
 
 .acordeon {
-	width: 50%;
+	width: auto;
+	margin: 10px
 }
 
 .acordeon li a{
@@ -71,9 +72,9 @@ h2 {
 	margin-left:10px;
 }
 
-/*.acordeon li ul {
+.acordeon li ul {
 	display: none;
-}*/
+}
 
 .acordeon li ul li {
 	background: #fff;
