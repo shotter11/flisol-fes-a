@@ -31,10 +31,15 @@ h2 {
 }
 .card {
 	height: 100px;
-	background-color: red;
+	/*background-color: red;*/
 	border-radius: 10px;
 	text-align: center;
 	margin: 10px
+}
+
+.card img {
+	width: 100px;
+	border-radius: 10px;
 }
 
 .registro {
@@ -46,7 +51,7 @@ h2 {
 
 .acordeon {
 	width: auto;
-	margin: 10px 20px
+	margin: 10px 10%
 }
 
 .acordeon li a{
