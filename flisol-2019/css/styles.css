@@ -10,9 +10,14 @@ body {
 /*-----------------estilos de header---------------------*/
 header {
 	background-image:url('../img/imgprueba.jpg');
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	background-size: cover;
-	height: 400px;
+	height: 500px;
+}
+
+.logofli{
+	padding-top: 50px;
+	padding-left: 50px
 }
 
 .titulo{
@@ -23,7 +28,7 @@ header {
 
 .titulo a {
 	text-decoration: none;
-	color: #3ba7e1;
+	color: #02a9f7;
 	background: #fff;
 	border-radius: 100px;
 	font-size: 25px;
@@ -40,58 +45,97 @@ header {
 	box-shadow: none;
 }
 
-.menu{
-	text-align: center;
-}
-
 
 ul {list-style-type: none;}
 
+
 ul li a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
+	font-size:25px;
 }
 
+/*-------------------estilos parte que es flisol?-------------------------*/
 
 .ques {
 	text-align: center;
+	padding: 10% 15%
 }
-
-
 
 h2 {
 	text-align: center;
+	font-size: 50px;
 }
+
+.ques p{
+	font-size:30px
+}
+
+/*-----------------------------estilos de telleres--------------------------------------------*/
+
 .card {
-	height: 100px;
-	/*background-color: red;*/
+	height: 400px;
+	margin: 45px;
+	background-color: red;
 	border-radius: 10px;
 	text-align: center;
 }
 
 .card img {
-	width: 100px;
-	border-radius: 10px;
+	height: 400px
 }
+
+/*.card1 {
+	height: 500px;
+	margin: 30px;
+	background-image: url('../img/cerebro.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.card2 {
+	height: 500px;
+	margin: 30px;
+	background-image: url('../img/cerebro.jpg');
+	background-size: cover;
+	border-radius: 10px;
+	text-align: center;
+}*/
 
 .registro {
 	background-color: #01303f;
-	height: 60px;
+	height: 100px;
 	margin-top: 10px
 	width:100%;
 }
 
+.registro a {
+	float: right;
+	margin:20px 80px;
+	text-decoration: none;
+	color: #02a9f7;
+	background: #fff;
+	border-radius: 100px;
+	font-size: 25px;
+	text-align: center;
+	padding: 15px 10px;
+	box-shadow: 0px 2px 2px #fff ;
+}
 
+/*---------------------------------comparaciones--------------------------*/
 .acordeon {
 	width: auto;
-	margin: 10px 10%
+	margin: 10px 22%;
+
 }
 
 .acordeon li a{
 	color: #fff;
 	display: block;
 	padding: 15px 20px;
-	background: #01303f
+	background: #01303f;
+
 }
 
 
@@ -107,14 +151,16 @@ h2 {
 
 .acordeon .icono.izquierda {
 	float: right;
-	margin-left:10px;
+	margin:10px;
+	font-size: 20px
 }
 
 .acordeon li ul {
 	display: none;
 }
 
-.acordeon li ul li {
+.acordeon li ul {
 	background: #fff;
 	color: #02577a;
+	padding: 40px
 }
