@@ -9,7 +9,7 @@ body {
 
 /*-----------------estilos de header---------------------*/
 header {
-	background-image:url('../img/cerebro.jpg');
+	background-image:url('../img/imgprueba.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 400px;
@@ -57,7 +57,7 @@ ul li a {
 	text-align: center;
 }
 
- 
+
 
 h2 {
 	text-align: center;
