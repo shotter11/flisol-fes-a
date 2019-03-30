@@ -176,3 +176,74 @@ h2 {
 	padding-bottom: 20px;
 	padding-right: 20px
 }
+
+/*----------------------estilos organizadores--------------------------*/
+
+#org {
+	text-align: center;
+	font-size: 70px;
+	margin: 60px;
+
+}
+
+.orga p {
+	margin-bottom: 40px;
+		font-size: 20px;
+		text-align: center;
+		color: #02577a;
+}
+.orga img {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*-------------------------------estilos Desarroladores--------------------*/
+
+
+#desa p{
+	text-align: center;
+	font-size: 70px;
+	margin: 60px;
+
+}
+
+.des p {
+	height: 30px;
+	padding: 10px;
+	background: #1a95d5;
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	width: 45%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -40px;
+}
+
+.des img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.normal {
+	font-size: 40px;
+	text-align: center;
+	color:  #02577a;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -40px;
+}
