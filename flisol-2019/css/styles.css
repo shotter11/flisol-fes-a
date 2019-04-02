@@ -74,7 +74,7 @@ h2 {
 	font-size:30px
 }
 
-/*-----------------------------estilos de telleres--------------------------------------------*/
+/*-----------------------------estilos de conferencias y talleres--------------------------------------------*/
 #conf{
 	margin-top: 90px;
 }
@@ -88,12 +88,15 @@ h2 {
 	margin: 70px;
 	background-color: red;
 	border-radius: 10px;
-    position: relative;
-    display: block;
-
+  position: relative;
+  display: block;
+	font-size:16px;
 }
 
-
+.titulo{
+	font-size: 20px;
+	color: #d4f0fc;
+}
 
 .texto-izq{
 	position: absolute;
@@ -122,34 +125,40 @@ h2 {
 /*-----------------------------ESTILOS BARRA DE REGISTRO-------------------------------*/
 .registro {
 	background-color: #01303f;
-	height: 200px;
-	margin-top: 10px
+	height: 100px;
+	margin-top: 10px;
 	width:100%;
 }
 
 .registro a {
 	float: right;
-	margin:65px 80px;
+	margin:30px 50px;
 	text-decoration: none;
 	color: #02a9f7;
 	background: #fff;
 	border-radius: 100px;
-	font-size: 25px;
 	text-align: center;
-	padding: 20px 10px;
+	padding: 10px 10px;
 	box-shadow: 0px 2px 2px #fff ;
 }
 
 /*---------------------------------comparaciones--------------------------*/
-.comp {
+
+#app {
 	margin-top: 100px;
-	font-size: 50px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.comp {
+	/* margin-top: 100px; */
+	font-size: 60px;
 	text-align: center;
 }
 
 .acordeon {
 	width: auto;
-	margin: 10px 22%;
+	margin: 10px 15%;
 
 }
 
@@ -204,7 +213,7 @@ h2 {
 
 #org {
 	text-align: center;
-	font-size: 70px;
+	font-size: 60px;
 	margin: 60px;
 
 }
@@ -231,7 +240,7 @@ h2 {
 
 #desa p{
 	text-align: center;
-	font-size: 70px;
+	font-size: 60px;
 	margin: 60px;
 
 }
@@ -281,25 +290,25 @@ footer {
 	color: #d4f0fc;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	margin-top: 30px;
 	padding-top: 30px;
 }
 
 
 .redes{
-	font-size: 40px
+	font-size: 35px
 }
 
 
 .insta {
-	font-size: 70px;
+	font-size: 50px;
 	color: #d4f0fc;
 	margin: 40px
 }
 
 .face {
-	font-size: 70px;
+	font-size: 50px;
 	color: #d4f0fc;
 	margin: 40px
 }
