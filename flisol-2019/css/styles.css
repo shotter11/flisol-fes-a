@@ -55,6 +55,9 @@ ul li a {
 	font-size:25px;
 }
 
+.menu li a:hover{
+	color:#02a9f7;
+}
 /*-------------------estilos parte que es flisol?-------------------------*/
 
 .ques {
@@ -113,27 +116,27 @@ h2 {
 	border-radius: 10px;
 	text-align: center;
 	display: block;
-	
+
 }
 
 /*-----------------------------ESTILOS BARRA DE REGISTRO-------------------------------*/
 .registro {
 	background-color: #01303f;
-	height: 100px;
+	height: 200px;
 	margin-top: 10px
 	width:100%;
 }
 
 .registro a {
 	float: right;
-	margin:20px 80px;
+	margin:65px 80px;
 	text-decoration: none;
 	color: #02a9f7;
 	background: #fff;
 	border-radius: 100px;
 	font-size: 25px;
 	text-align: center;
-	padding: 15px 10px;
+	padding: 20px 10px;
 	box-shadow: 0px 2px 2px #fff ;
 }
 
